@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        #yowassup{
+    border-radius: 25px;
+    border: 4px solid black;
+    padding: 20px;
+    width: 650px;
+    height: 550px;
+        }
+
+        #resulter{
+            border-radius: 12px;
+            border: 2px solid black
+        }
+    </style>
+</head>
+<body>
+
+    <Br>
+    <div id="yowassup" class="container text-center shadow-lg">
+
+        <h1>Non-Metal Checker</h1>
+        <p>Enter an element to gain information on Non Metal</p>
+        <br>
+
+        <input class="form-control" type="text" id="nometa" placeholder="Example: Hydrogen">
+
+        <br>
+
+
+        <button class="form-control bg-primary text-white" py-click="yooo">Check Non-Metal</button>
+
+        <Br><Br>
+        <div class="result col" id="resulter">
+            <p><b>Element Code:</p><span id="codes"></span></b>
+            <br>
+            <p><b>Element Name:</p><span id="namess"></span></b>
+            <br>
+            <p><b>Atomic Number:</p><span id="whereha"></span></b>
+            <br>
+            <p><b>Mass:</p><span id="heavy"></span></b>
+    </div>
+    
+    <script type="py" src="main.py"></script>
+</body>
+</html>
